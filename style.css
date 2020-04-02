@@ -1,0 +1,153 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: auto;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.header {
+  background: linear-gradient(#feca57, #ff9f43);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.wrapper_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 10px;
+}
+
+/* btn of navbar */
+
+.menu_bar_link {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 20px 0px;
+}
+
+.menu_bar_link--item {
+  text-decoration: none;
+  margin: 10px 40px;
+  padding: 5px;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.menu_bar_link--item:hover {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/* Autor info - wrapper_2*/
+.wrapper_2,
+.aditional {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: black;
+}
+
+.aditional {
+  padding-top: 0;
+  padding-bottom: 150px;
+}
+
+.gabo_img {
+  width: 537px;
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 100px;
+  box-shadow: 18px -17px 0px 1px;
+  color: #f1c40f;
+}
+
+.autor_info {
+  line-height: 25px;
+  align-self: center;
+  text-align: center;
+  overflow-y: auto;
+}
+
+/* wrapper_3 - library*/
+
+.wrapper_3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  height: 550px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  /*padding: 30px 15px;*/
+}
+
+.library_item {
+  width: 247px;
+  height: 322px;
+  border-radius: 5px;
+  box-shadow: -12px 9px 5px #dfe4ea;
+}
+
+.name-book,
+.year-book {
+  text-align: center;
+  align-self: center;
+  margin: 20px 12px;
+}
+
+.wrapper_4 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: black;
+  padding-left: 115px;
+  padding-bottom: 150px;
+  line-height: 29px;
+}
+
+.final-title {
+  margin-top: 50px;
+  margin-bottom: 77px;
+}
+
+.gabo-award {
+  width: 335px;
+  max-width: 100%;
+  height: 325px;
+  box-shadow: -16px 15px 0px 1px;
+  color: #f1c40f;
+}
+
+.finalSection {
+  color: white;
+  text-align: center;
+  background: linear-gradient(#feca57, #ff9f43);
+  height: 100px;
+  padding-top: 40px;
+}
+
+.moreinfo-link {
+  text-decoration: none;
+  color: #ff6348;
+}
+.moreinfo-link:hover {
+  color: #581845;
+}
