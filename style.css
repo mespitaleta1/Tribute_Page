@@ -5,8 +5,12 @@ body {
 }
 
 .container {
+  width: 80%;
+  height: auto;
   min-width: 320px;
   max-width: 1200px;
+  margin: 0;
+  overflow: auto;
   margin-right: auto;
   margin-left: auto;
   overflow: auto;
@@ -53,50 +57,63 @@ body {
 .wrapper_2,
 .aditional {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  align-items: center;
   color: black;
 }
 
 .aditional {
-  padding-top: 0;
-  padding-bottom: 150px;
+  padding-top: 110px;
+  padding-bottom: 130px;
 }
 
 .gabo_img {
-  width: 537px;
+  width: 800px;
+  height: 300px;
   min-width: 320px;
   max-width: 100%;
-  min-height: 100px;
+  min-height: 250px;
   box-shadow: 18px -17px 0px 1px;
+  flex-basis: 50%;
+  object-fit: cover;
   color: #f1c40f;
 }
 
 .autor_info {
   line-height: 25px;
+  flex-basis: 90%;
   align-self: center;
   text-align: center;
   overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper_2,
+  .aditional {
+    flex-direction: column;
+  }
+
+  .autor_info,
+  .gabo_img {
+    flex-basis: 100%;
+  }
 }
 
 /* wrapper_3 - library*/
 
 .wrapper_3 {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: black;
-  height: 550px;
+  height: 560px;
 }
 
-h2 {
+.subtitle {
   text-align: center;
   color: black;
-  /*padding: 30px 15px;*/
+  margin-top: 100px;
 }
 
 .library_item {
@@ -110,7 +127,11 @@ h2 {
 .year-book {
   text-align: center;
   align-self: center;
-  margin: 20px 12px;
+  margin: 20px 12px 5px;
+}
+
+.year-book {
+  margin: 5px 0px;
 }
 
 .wrapper_4 {
