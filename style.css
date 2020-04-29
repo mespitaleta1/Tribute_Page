@@ -88,32 +88,20 @@ body {
   overflow-y: auto;
 }
 
-@media screen and (max-width: 768px) {
-  .wrapper_2,
-  .aditional {
-    flex-direction: column;
-  }
-
-  .autor_info,
-  .gabo_img {
-    flex-basis: 100%;
-  }
-}
-
 /* wrapper_3 - library*/
 
 .wrapper_3 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   color: black;
-  height: 560px;
 }
 
-.subtitle {
+.subtitle2 {
   text-align: center;
   color: black;
-  margin-top: 100px;
+  margin: 150px 0px 120px;
 }
 
 .library_item {
@@ -171,4 +159,39 @@ body {
 }
 .moreinfo-link:hover {
   color: #581845;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper_2,
+  .aditional,
+  .wrapper_3 {
+    flex-direction: column;
+  }
+
+  .autor_info,
+  .gabo_img {
+    flex-basis: 100%;
+  }
+
+  .book1,
+  .book2,
+  .book3 {
+    margin-bottom: 30px;
+  }
+
+  .menu_bar_link--item {
+    margin: 10px 10px;
+  }
+
+  .menu_bar_link {
+    padding-right: 40px;
+  }
+
+  .wrapper_1 {
+    padding-top: 150px;
+  }
+
+  .title {
+    font-size: x-large;
+  }
 }
