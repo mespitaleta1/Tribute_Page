@@ -191,7 +191,7 @@ body {
   }
 
   .menu_bar_link {
-    padding-right: 40px;
+   justify-content: center; 
   }
 
   .wrapper_1 {
@@ -200,6 +200,7 @@ body {
 
   .title {
     font-size: 1.7em;
+    text-align: center; 
   }
 
   .wrapper_4 {
