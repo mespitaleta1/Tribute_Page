@@ -13,11 +13,35 @@ body {
   overflow: auto;
   margin-right: auto;
   margin-left: auto;
+}
+
+.hero-container {
+  width: 100%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   overflow: auto;
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.filter {
+  position: absolute;
+  background: linear-gradient(#feca57, #ff9f43);
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  top: 0;
 }
 
 .header {
-  background: linear-gradient(#feca57, #ff9f43);
+  position: relative;
+  z-index: 0;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
@@ -164,6 +188,7 @@ body {
   text-decoration: none;
   color: #ff6348;
 }
+
 .moreinfo-link:hover {
   color: #581845;
 }
@@ -191,7 +216,7 @@ body {
   }
 
   .menu_bar_link {
-   justify-content: center; 
+    justify-content: center;
   }
 
   .wrapper_1 {
@@ -200,7 +225,7 @@ body {
 
   .title {
     font-size: 1.7em;
-    text-align: center; 
+    text-align: center;
   }
 
   .wrapper_4 {
